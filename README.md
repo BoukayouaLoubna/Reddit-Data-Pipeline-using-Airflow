@@ -75,5 +75,6 @@ Final Step: Prepare data for data warehousing and visualization in BI tools
 
 ## Authors
 
-*Loubna Boukayoua*
+*Loubna Boukayoua*  
+
 Feel free to contact me for any questions or feedback via email loubnaboukayoua@gmail.com
