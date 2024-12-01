@@ -33,7 +33,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline that extracts
 #### ETL 1: Extract Reddit Data to CSV
 - Extract: Retrieve posts from Reddit's API for a specific subreddit using praw.
 - Transform: Clean and preprocess the data (type conversion, fixing missing values).
-- Load: Save the transformed data into a CSV file in the output folder.
+- Load: Save the transformed data into a CSV file in the output folder.  
 *Key Components:*
 reddit_pipeline.py: Orchestrates the extraction, transformation, and loading process.
 Output: Files like reddit_date.csv.
@@ -41,7 +41,7 @@ Output: Files like reddit_date.csv.
 #### ETL 2: Load CSV to S3 and Data Warehousing
 - Extract: Read the CSV files from the output folder.
 - Transform: Ensure data readiness for storage in S3, performing validation if needed.
-- Load: Upload files to the S3 bucket under the raw directory.
+- Load: Upload files to the S3 bucket under the raw directory.  
 *Key Components:*
 aws_etl.py: Handles S3 connection, bucket creation, and file uploads.
 aws_s3_pipeline.py: Implements the ETL pipeline for S3 upload.
